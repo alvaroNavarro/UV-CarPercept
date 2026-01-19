@@ -23,6 +23,7 @@ repos=(
     "https://github.com/alvaroNavarro/projection_lidar_cameras"
     "https://github.com/PRBonn/kiss-icp"
     "https://github.com/alvaroNavarro/pcl_kiss_filter"
+    "https://github.com/alvaroNavarro/pcl_kiss_filter_interface"
     "https://github.com/alvaroNavarro/trajectory_publisher"
     "https://github.com/alvaroNavarro/kiss_icp_wrapper"
     "https://github.com/alvaroNavarro/kiss_icp_odometry"

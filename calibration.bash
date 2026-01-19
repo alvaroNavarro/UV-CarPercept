@@ -14,6 +14,7 @@ echo "... Starting installation process ..."
 repos=(
     "https://github.com/alvaroNavarro/zed_calibration"
     "https://github.com/alvaroNavarro/cam_lidar_calibration"
+    "https://github.com/alvaroNavarro/cam_lidar_calibration_interface"
 )
 
 cd ~/

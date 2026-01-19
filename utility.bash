@@ -24,7 +24,7 @@ repos=(
     "https://github.com/alvaroNavarro/visualize_sensor_from_rosbag"
     "https://github.com/alvaroNavarro/sync_sensors"
     "https://github.com/alvaroNavarro/sync_sensors_interface"
-    "https://github.com/alvaroNavarro/sync_all_sensor_from_rosbag"
+    "https://github.com/alvaroNavarro/sync_all_sensors_from_rosbag"
     "https:/github.com/alvaroNavarro/syncronize_lidar_camera_cpp"
 )
 

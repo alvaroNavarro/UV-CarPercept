@@ -16,6 +16,7 @@ echo "... Starting installation process ..."
 repos=(
     "https://github.com/alvaroNavarro/create_UV_dataset"
     "https://github.com/alvaroNavarro/open_dataset"
+    "https://github.com/alvaroNavarro/open_dataset_interface"
 )
 
 cd ~/
@@ -43,7 +44,7 @@ git clone "https://github.com/ObjSal/GeographicLib"
 
 #GeographicLib installation
 cd GeographicLib
-mkldir build && cd build
+mkdir build && cd build
 ../configure
 cmake .. -DGEOGRAPHICLIB_LIB_TYPE=STATIC -DGEOGRAPHICLIB_DATA=ON
 make -j$(nproc)
