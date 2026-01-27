@@ -79,5 +79,5 @@ All the packages are installed and sourced in the workspace!
    https://github.com/alvaroNavarro/projection_lidar_cameras for projecting point cloud onto the individual and mosaic images.
    https://github.com/alvaroNavarro/kiss_icp_wrapper for registering point cloud associated to different sequences
 
-   Contact:
+   Contact:   
    Alvaro Navarro-Perez email: alvaro.navarro@correounivalle.edu.co
