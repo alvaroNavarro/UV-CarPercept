@@ -44,6 +44,8 @@ cd UV-CarPercept
 
 ### 2. Run the UV-CarPercept installation script
 ```
-sudo chmod +x installer_ros2.sh
-./install_ros2.sh
+sudo chmod +x installation.sh
+./installation.sh
 ```
+
+All the packages are installed and sourced in the workspace!
