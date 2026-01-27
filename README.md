@@ -33,7 +33,7 @@ Please contact to alvaro.navarro@correounivalle.edu.co
 
 The application is divided into two sections as depicted in Fig 1. The first section comprises the sensor packages mentioned before and the right section comprises all packages of perception module.
 
-![Fig 1. Sections of UV-CarPeception appliation](images/UV-CarPerception_modules.png)
+![Fig 1. Sections of UV-CarPeception appliation](images/UV-CarPerception_modules_and_Vehicle.png)
 
 The section of UV-CarPerception modules are composed by the following subsections:
 
