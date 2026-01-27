@@ -14,16 +14,15 @@ This module will install the perception modules into the ROS2 workspace from ind
   https://www.stereolabs.com/docs/ros2
 
 - Ensure to have installed the drivers for the Ouster LiDAR or velodyne sensor.
-  Please check the github repo:
-  https://github.com/ouster-lidar/ouster-ros
-
+  Please check the github repo: 
+  https://github.com/ouster-lidar/ouster-ros 
   https://github.com/ros-drivers/velodyne
 
 - Ensure to have installed the drivers for the XSense IMU.
-  Please check the github repo:
+  Please check the github repo: 
   https://github.com/DEMCON/ros2_xsens_mti_driver
 
-- Add the package gps_imu that is found in the following repository:
+- Add the package gps_imu that is found in the following repository: 
   https://github.com/alvaroNavarro/gps_imu
 
 ## 📦 Features
