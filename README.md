@@ -33,6 +33,15 @@ The application is divided into two sections as depicted in Fig 1. The first sec
 
 ![Fig 1. Sections of UV-CarPeception appliation](images/UV-CarPerception_modules.png)
 
+The section of UV-CarPerception modules are composed by the following subsections:
+
+1. Utility: The packages that validate the operation of the sensor devices are defined, as well as the visualization and synchronization package
+2. Dataset: This contains the dataset creation packages, which store in a repository the information related to the images from each camera, point clouds, and odometry data for each trajectory or sequence.
+3. Calibration: This contains the individual calibration packages for the cameras, allowing the extraction of their intrinsic parameters, as well as the calibration between the laser and each camera to extract the extrinsic parameters (the transformation matrix that defines the position and orientation of each camera’s reference frame with respect to the laser sensor reference frame).
+4. Advanced: Este contiene los paquetes de creación de la imágen pannorámica, proyección de nubes de puntos sobre el mosaico parnoármico y el registro de la nube de puntos sobre los recorridos establecidos.
+
+Please check each bash file to know the name of each ROS package.
+
 ## 🚀 Getting Started
  
 ### 1. Clone the repository
