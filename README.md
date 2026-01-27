@@ -24,6 +24,8 @@ This module will install the perception modules into the ROS2 workspace from ind
   Please check the github repo:   
   https://github.com/DEMCON/ros2_xsens_mti_driver
 
+Please contact to alvaro.navarro@correounivalle.edu.co   
+
 - Add the package gps_imu that is found in the following repository:   
   https://github.com/alvaroNavarro/gps_imu
 
