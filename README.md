@@ -35,10 +35,10 @@ The application is divided into two sections as depicted in Fig 1. The first sec
 
 The section of UV-CarPerception modules are composed by the following subsections:
 
-1. Utility: The packages that validate the operation of the sensor devices are defined, as well as the visualization and synchronization package
-2. Dataset: This contains the dataset creation packages, which store in a repository the information related to the images from each camera, point clouds, and odometry data for each trajectory or sequence.
-3. Calibration: This contains the individual calibration packages for the cameras, allowing the extraction of their intrinsic parameters, as well as the calibration between the laser and each camera to extract the extrinsic parameters (the transformation matrix that defines the position and orientation of each camera’s reference frame with respect to the laser sensor reference frame).
-4. Advanced: Este contiene los paquetes de creación de la imágen pannorámica, proyección de nubes de puntos sobre el mosaico parnoármico y el registro de la nube de puntos sobre los recorridos establecidos.
+1. **Utility**: The packages that validate the operation of the sensor devices are defined, as well as the visualization and synchronization package
+2. **Dataset**: This contains the dataset creation packages, which store in a repository the information related to the images from each camera, point clouds, and odometry data for each trajectory or sequence.
+3. **Calibration**: This contains the individual calibration packages for the cameras, allowing the extraction of their intrinsic parameters, as well as the calibration between the laser and each camera to extract the extrinsic parameters (the transformation matrix that defines the position and orientation of each camera’s reference frame with respect to the laser sensor reference frame).
+4. **Advanced**: Este contiene los paquetes de creación de la imágen pannorámica, proyección de nubes de puntos sobre el mosaico parnoármico y el registro de la nube de puntos sobre los recorridos establecidos.
 
 Please check each bash file to know the name of each ROS package.
 
@@ -58,3 +58,21 @@ sudo chmod +x installation.sh
 ```
 
 All the packages are installed and sourced in the workspace!
+
+## 🚀 Usage
+1. **Utility**: Please refer to the repository:   
+   https://github.com/alvaroNavarro/multi_sensor for testing each sensor device  
+   https://github.com/alvaroNavarro/test_sync_camera_lidar for synchronizing camera and LiDAR and visualize the data in RVIZ
+
+2. **Dataset**: Please refer to the repository: 
+   https://github.com/alvaroNavarro/create_UV_dataset for creating the dataset from sensor information.   
+   https://github.com/alvaroNavarro/open_dataset for openning the dataset for applying specific perception tasks.
+
+3. **Calibration**: Please refer to the repository:
+   https://github.com/alvaroNavarro/zed_calibration for ZED camera calibration
+   https://github.com/alvaroNavarro/cam_lidar_calibration for calibration camera - LiDAR
+
+4. **Advanced**: Please refer to the repository:
+   https://github.com/alvaroNavarro/panoramic_image for creating panoramic images.
+   https://github.com/alvaroNavarro/projection_lidar_cameras for projecting point cloud onto the individual and mosaic images.
+   https://github.com/alvaroNavarro/kiss_icp_wrapper for registering point cloud associated to different sequences
