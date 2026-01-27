@@ -69,7 +69,7 @@ All the packages are installed and sourced in the workspace!
    https://github.com/alvaroNavarro/open_dataset for openning the dataset for applying specific perception tasks.
 
 3. **Calibration**: Please refer to the repository:   
-   https://github.com/alvaroNavarro/zed_calibration for ZED camera calibration
+   https://github.com/alvaroNavarro/zed_calibration for ZED camera calibration   
    https://github.com/alvaroNavarro/cam_lidar_calibration for calibration camera - LiDAR
 
 4. **Advanced**: Please refer to the repository:   
