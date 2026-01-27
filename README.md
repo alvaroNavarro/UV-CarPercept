@@ -24,6 +24,8 @@ This module will install the perception modules into the ROS2 workspace from ind
 
 The application is divided into two sections as depicted in Fig 1. The first section comprises the sensor packages mentioned before and the right section comprises all packages of perception module.
 
+![Fig 1. Sections of UV-CarPeception appliation](images/UV-CarPerception_modules.png)
+
 ## 🚀 Getting Started
  
 ### 1. Clone the repository
