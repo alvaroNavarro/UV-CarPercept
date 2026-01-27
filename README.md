@@ -64,7 +64,7 @@ All the packages are installed and sourced in the workspace!
    https://github.com/alvaroNavarro/multi_sensor for testing each sensor device  
    https://github.com/alvaroNavarro/test_sync_camera_lidar for synchronizing camera and LiDAR and visualize the data in RVIZ
 
-2. **Dataset**: Please refer to the repository: 
+2. **Dataset**: Please refer to the repository:    
    https://github.com/alvaroNavarro/create_UV_dataset for creating the dataset from sensor information.   
    https://github.com/alvaroNavarro/open_dataset for openning the dataset for applying specific perception tasks.
 
