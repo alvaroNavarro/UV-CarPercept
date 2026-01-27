@@ -2,7 +2,7 @@
 The UV-CarPerception tool is developed as part of the objectives of the doctoral thesis entitled Time-Varying Semantic Maps for Long-term Localization using Multi-Modal Perception Systems, belonging to the    Perception and Intelligent Systems (PSI) research group at Universidad del Valle.
 The application is designed to perform perception and mapping tasks in urban environments using a multi-sensor platform composed of three ZED2 stereo cameras, a 3D Ouster OS0 LiDAR scanner or Velodyne sensor, an inertial measurement unit (IMU), and a GPS receiver, all integrated on an embedded Jetson ORIN AGX system. Its main objective is to process the visual and geometric information resulting from the fusion of camera and LiDAR data to identify and register characteristic objects of the urban environment, while the IMU and GPS data provide odometry information for localization tasks.
 
-![Multi-sensor_platform](images/Multi-sensor_platform.png)
+![Multi-sensor_platform](images/Multi-sensor_platform_and_Vehicle.png)
 
 This module will install the perception modules into the ROS2 workspace from individual bash files
 
@@ -33,7 +33,7 @@ Please contact to alvaro.navarro@correounivalle.edu.co
 
 The application is divided into two sections as depicted in Fig 1. The first section comprises the sensor packages mentioned before and the right section comprises all packages of perception module.
 
-![Fig 1. Sections of UV-CarPeception appliation](images/UV-CarPerception_modules_and_Vehicle.png) 
+![Fig 1. Sections of UV-CarPeception appliation](images/UV-CarPerception_modules.png) 
 
 The section of UV-CarPerception modules are composed by the following subsections:
 
