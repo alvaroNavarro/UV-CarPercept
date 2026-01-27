@@ -68,11 +68,11 @@ All the packages are installed and sourced in the workspace!
    https://github.com/alvaroNavarro/create_UV_dataset for creating the dataset from sensor information.   
    https://github.com/alvaroNavarro/open_dataset for openning the dataset for applying specific perception tasks.
 
-3. **Calibration**: Please refer to the repository:
+3. **Calibration**: Please refer to the repository:   
    https://github.com/alvaroNavarro/zed_calibration for ZED camera calibration
    https://github.com/alvaroNavarro/cam_lidar_calibration for calibration camera - LiDAR
 
-4. **Advanced**: Please refer to the repository:
+4. **Advanced**: Please refer to the repository:   
    https://github.com/alvaroNavarro/panoramic_image for creating panoramic images.
    https://github.com/alvaroNavarro/projection_lidar_cameras for projecting point cloud onto the individual and mosaic images.
    https://github.com/alvaroNavarro/kiss_icp_wrapper for registering point cloud associated to different sequences
